@@ -1,0 +1,167 @@
+@font-face{
+    font-family: 'FontAwesome';
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+}
+*{
+    font-family: poppins;
+    font-size: 17px;
+}
+#fixed-social{
+    position: fixed;
+    top: 300px;
+    z-index: 99;
+    right: 0;
+}
+#fixed-social a{
+    color: #fff;
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+    z-index: 2;
+}
+#fixed-social a span {
+    line-height: 40px;
+    right: 60px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    z-index: 99999;
+    
+    
+}
+#fixed-social:hover{
+    visibility: visible;
+    /* -webkit-transition: all 0.5s ease; */
+}
+.fixed-facebook{
+    background-color: #00AAE5;
+}
+.fixed-facebook span {
+    background-color: #00AAE5;
+}
+.fixed-instagram{
+    background-color: #e94a47;
+}
+.fixed-instagram span {
+    background-color: #e94a47;
+}
+.fixed-twitter{
+   background-color: #2ab1e0;
+}
+.fixed-twitter span{
+    background-color: #2ab1e0;
+}
+.fixed-linkedin{
+    background-color: #1177b5;
+}
+.fixed-linkedin span{
+    background-color: #1177b5;
+}
+.navbar .container-fluid{
+    padding-left: 180px;
+    padding-right: 190px;
+}
+.navbar-nav:active {
+    color: #ed1b24;
+}
+@media (max-width:767px){
+    .logo {
+        width: 130px;
+    }
+}
+.logo{
+    width: 124px;
+}
+.container {
+    padding: 120px 0;
+}
+.item{
+    background: #f2e4cf;
+}
+.item img{
+    padding: 35px;
+    border-radius: 20px;
+}
+.bt-text h3{
+    font-size: 25px;
+    font-weight: 400;
+    background: #0052a1;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding: 15px 40px;
+
+}
+.content p{
+    font-weight: 200;
+}
+
+.content{
+    background: #0052a1;
+}
+.btn {
+    color: white;
+    border-color: #ed1b24;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #fff;
+}
+.welcome{
+    padding: 10px 0;
+    background: url(about-home-bg.jpg) no-repeat center center;
+    height: auto;
+    background-size: cover;
+
+} 
+.welcome h3{
+    color: #0052a1;
+    font-size: 23px;
+    font-weight: 400;
+}
+.welcome h1{
+    color: #ed1b24;
+    font-size: 30px;
+    font-weight: 300;
+}
+.welcome p{
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+}
+.welcome .container{
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media (min-width:1200px) {
+    .welcome .container{
+        width: 1170px;
+    }
+}
+@media (min-width:992px) {
+    .welcome .container{
+        width: 1170px;
+    }
+}
+@media (min-width:768px) {
+    .welcome .container{
+        width: 1170px;
+    }
+}
+.social-media-icons li a img{
+    width: 50px;
+}
+.social-media-icons img{
+    vertical-align: middle;
+}
+.text-center {
+    text-align: center;
+}
+.copyright{
+    background: #fbf2f1;
+}
